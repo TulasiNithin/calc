@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+div{margin-top: 45px;
+    background-color:rosybrown;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+}
+div .btn{
+    color: black;
+    font-size: 20px;
+    font-weight: 70px;
+    background-color:whitesmoke;
+    width: 80px;
+    height: 60px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+div .btn1{
+    color: black;
+    background-color:whitesmoke;
+    width: 80px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 70px;
+}
+div #inp{
+    flex: 1;
+    width:60%;
+    height:60px;
+    text-align: right;
+    
+    
+}
+
+div .btn:hover{
+    background-color: green
+}
+div .btn1:hover{
+    background-color: green;
+}
